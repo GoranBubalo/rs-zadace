@@ -1,4 +1,4 @@
-#Viježba 2 prijsetupna godina 
+#zadatak 2 prijsetupna godina 
 
 #User input
 year = int(input("Insert the year: ")) #Casting to integer data type
