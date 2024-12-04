@@ -5,7 +5,7 @@ def check_password(password):
         print("Password need's to contain between 8 and 15 characters")
         return
     
-    #Check if the password contains one Upper case and one letter
+    #Check if the password contains one Upper case and one number
     if not any(char.isupper() for char in password) or not any(char.isdigit() for char in password):
         print("Password need's to contain al least one upper case and one digit")
         return
