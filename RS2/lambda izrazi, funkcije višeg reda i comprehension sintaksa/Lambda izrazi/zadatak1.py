@@ -1,4 +1,4 @@
-#Kvadriranje broja
+#Kvadriranje broja 
 def kvadriraj(x):
     return x ** 2
 print(kvadriraj(2))
