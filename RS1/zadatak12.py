@@ -1,6 +1,10 @@
 #Obrnute rječnik
 def reverse_grammar_list(dictionary):
-    return{value: key for key, value in dictionary.items()}
+    #Declaring a empry Dincionary
+    reverse_dictionary = []
+    for key, value in dictionary.items():
+        reverse_dictionary[value] = key #Swaping key and value 
+    return reverse_dictionary
     
     
     
